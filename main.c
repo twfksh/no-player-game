@@ -9,7 +9,6 @@
 
 #include <raylib.h>
 
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -60,7 +59,7 @@ int main(void) {
 
 	srand(time(NULL)); // Seed the random number generator with current time
 
-	SetTargetFPS(60);
+	SetTargetFPS(24);
 
 	while (!WindowShouldClose()) {
 
